@@ -10,5 +10,21 @@ package reto3;
  * @author AlumnoUTM
  */
 public class constructor {
+    private int puntaje;
+
+    public constructor(int puntaje) {
+        this.puntaje = puntaje;
+    }
+
+    public constructor() {
+    }
+
+    public int getPuntaje() {
+        return puntaje;
+    }
+
+    public void setPuntaje(int puntaje) {
+        this.puntaje = puntaje;
+    }
     
 }
