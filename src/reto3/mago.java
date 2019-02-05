@@ -10,5 +10,21 @@ package reto3;
  * @author AlumnoUTM
  */
 public class mago {
+    private int puntaje;
+
+    public mago(int puntaje) {
+        this.puntaje = puntaje;
+    }
+
+    public mago() {
+    }
+
+    public int getPuntaje() {
+        return puntaje;
+    }
+
+    public void setPuntaje(int puntaje) {
+        this.puntaje = puntaje;
+    }
     
 }
